@@ -12,7 +12,7 @@ class VideoImporter {
         elseif(self::is('vimeo.com', $data))
         	$importer = new Importer_Vimeo($data);
         else
-        	$impoter = null;
+        	$importer = null;
         	
         return $importer;
     }
